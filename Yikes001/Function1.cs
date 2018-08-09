@@ -29,7 +29,7 @@ namespace Yikes001
             // name = name ?? data?.name;
             
             return name != null
-                ? (ActionResult)new OkObjectResult("VERSION 4 At: " + now.ToLocalTime() + $" Hello from YIKES001, {name}")
+                ? (ActionResult)new OkObjectResult("VERSION 5 At: " + now.ToLocalTime() + $" Hello from YIKES001, {name}")
                 : new BadRequestObjectResult("At: " + now.ToLocalTime() + " YIKES!  Please pass a name on the query string or in the request body");
         }
 
@@ -50,7 +50,7 @@ namespace Yikes001
             // name = name ?? data?.name;
 
             return name != null
-                ? (ActionResult)new OkObjectResult("VERSION 4 FUCK FUCK At: " + now.ToLocalTime() + $" Hello from YIKES001, {name}")
+                ? (ActionResult)new OkObjectResult("VERSION 5 FUCK FUCK At: " + now.ToLocalTime() + $" Hello from YIKES001, {name}")
                 : new BadRequestObjectResult("At: " + now.ToLocalTime() + " YIKES!  Please pass a name on the query string or in the request body");
         }
     }
