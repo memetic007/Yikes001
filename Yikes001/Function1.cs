@@ -1,5 +1,6 @@
 
 using System;
+using System.Text;
 using System.IO;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;
@@ -41,17 +42,16 @@ namespace Yikes001
 
             log.Info("C# HTTP trigger function processed a request.");
 
+            Stream body = req.Body;
+
+            var reader = new StreamReader(body, Encoding.UTF8);
+            
+            string postString = reader.ReadToEnd();
 
 
-            string name = req.Query["name"];
 
-            // string requestBody = new StreamReader(req.Body).ReadToEnd();
-            // dynamic data = JsonConvert.DeserializeObject(requestBody);
-            // name = name ?? data?.name;
+            return (ActionResult)new OkObjectResult(postString);
 
-            return name != null
-                ? (ActionResult)new OkObjectResult("VERSION 5 FUCK FUCK At: " + now.ToLocalTime() + $" Hello from YIKES001, {name}")
-                : new BadRequestObjectResult("At: " + now.ToLocalTime() + " YIKES!  Please pass a name on the query string or in the request body");
         }
     }
 }
