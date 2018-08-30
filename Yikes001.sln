@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yikes001", "Yikes001\Yikes001.csproj", "{50B40504-CB67-4762-A453-3B6CEA2289C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yikes001", "Yikes001\Yikes001.csproj", "{50B40504-CB67-4762-A453-3B6CEA2289C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkWarsServiceFunction", "NetworkWarsServiceFunction\NetworkWarsServiceFunction.csproj", "{C52D7C08-11CD-4F9D-94D0-7A47E9C6A587}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{50B40504-CB67-4762-A453-3B6CEA2289C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50B40504-CB67-4762-A453-3B6CEA2289C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50B40504-CB67-4762-A453-3B6CEA2289C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C52D7C08-11CD-4F9D-94D0-7A47E9C6A587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C52D7C08-11CD-4F9D-94D0-7A47E9C6A587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C52D7C08-11CD-4F9D-94D0-7A47E9C6A587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C52D7C08-11CD-4F9D-94D0-7A47E9C6A587}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
