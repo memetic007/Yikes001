@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yikes001", "Yikes001\Yikes0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkWarsServiceFunction", "NetworkWarsServiceFunction\NetworkWarsServiceFunction.csproj", "{C52D7C08-11CD-4F9D-94D0-7A47E9C6A587}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "NetworkWarsDB", "NetworkWarsDB\NetworkWarsDB.sqlproj", "{1481739B-2D83-429D-BC17-24F6E980A5FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{C52D7C08-11CD-4F9D-94D0-7A47E9C6A587}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C52D7C08-11CD-4F9D-94D0-7A47E9C6A587}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C52D7C08-11CD-4F9D-94D0-7A47E9C6A587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1481739B-2D83-429D-BC17-24F6E980A5FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1481739B-2D83-429D-BC17-24F6E980A5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1481739B-2D83-429D-BC17-24F6E980A5FB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1481739B-2D83-429D-BC17-24F6E980A5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1481739B-2D83-429D-BC17-24F6E980A5FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1481739B-2D83-429D-BC17-24F6E980A5FB}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
